@@ -61,10 +61,78 @@ Height:613px;
 margin-top: 33px;
 margin-left: 3em;
 }
+/*------------------
+     navs and articles
+------------------------- */
+
+/* asides styles */
+.nav-article{
+    margin-top: 2em;
+}
+aside{
+    Width: 220px;
+    Height: 250px;
+    background-color:#161616;
+    border-radius: 5px;
+    
+}
+.navs{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.nav-button{
+    width: 150px;
+    height: 15px;
+    background-color: #808000	;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    margin: 1em;
+ 
+}
+
 .nav-article{
     display: flex;
 }
 .articles{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    margin-left: 1em;
+}
+
+.blogs{
+    Width:312px;
+    Height:362px;
+}
+.blog-image{
+    Width: 312px;
+    Height: 175px;
+}
+.blog-button{
+    Width:100px;
+    Height:32px;
+    text-decoration: none;
+    border: 1px solid purple;
+    margin-left: 1em;
+}
+.p-article{
+    margin-left: 1em;
+}
+.blog-detail{
+    display: flex;
+   
+    margin-left: 1em;
+}
+.timing{
+
 }
