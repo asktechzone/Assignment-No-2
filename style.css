@@ -1,8 +1,70 @@
+/* Font-styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+
+/* ------------------
+    Common Styles
+------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
 /* Header_Parts */
+.container{
+    display: flex;
+    margin: 5%;
+}
 header{
-    margin: 2%;
+
     width: 1321px;
     height: 646px;
-    background-color: #161616;
+    background-color:#161616;
     border-radius: 25px;
+}
+.heading-info{
+    Width:531px;
+    Height:424px;
+}
+.heading-title{
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 700;
+}
+.heading-detail{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+.live{
+    background-color: #808000	;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+}
+.fa-greater-than{
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.banner img{
+Width:581px;
+Height:613px;
+margin-top: 33px;
+margin-left: 3em;
+}
+.nav-article{
+    display: flex;
+}
+.articles{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
 }
