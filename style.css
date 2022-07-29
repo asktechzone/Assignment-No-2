@@ -113,6 +113,8 @@ aside{
 .blogs{
     Width:312px;
     Height:362px;
+    border: 1px solid lightblue;
+    border-radius: 15px;
 }
 .blog-image{
     Width: 312px;
