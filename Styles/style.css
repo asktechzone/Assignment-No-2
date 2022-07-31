@@ -359,3 +359,15 @@ grid-row-gap: 1em;
 
 
 }
+/* Animation Styles */
+
+.live:hover{
+    color: blue;
+}
+p:hover{
+    color: purple;
+}
+.heading-detail:hover{
+    color: #FFFFFF;
+}
+
