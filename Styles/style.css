@@ -203,3 +203,15 @@ hr{
             text-align: center;
             margin-top: 7px;
         }
+        /* Special Styles */
+        #up-color{
+            background-color: darkcyan;
+        }
+        #blog-color{
+            background-color: cornflowerblue;
+        }
+
+        /*---------------------
+                Responsive-Divices-Styles
+        -------------------*/
+        
