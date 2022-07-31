@@ -14,25 +14,25 @@ body{
 /* Header_Parts */
 .container{
     display: flex;
-    margin: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
 }
 header{
-
-    width: 1321px;
-    height: 646px;
+    margin: 2%;
     background-color:#161616;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 .heading-info{
-    Width:531px;
-    Height:424px;
+    margin-left: 5em;
+   
 }
 .heading-title{
     color: #FFFFFF;
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 700;
 }
 .heading-detail{
+    margin-bottom: 3em;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
@@ -57,9 +57,10 @@ header{
 }
 .banner img{
 Width:581px;
-Height:613px;
-margin-top: 33px;
+Height: 613px;
+margin-top: 35px;
 margin-left: 3em;
+margin-right: 5em;
 }
 /*------------------
      navs and articles
@@ -74,7 +75,6 @@ aside{
     Height: 250px;
     background-color:#161616;
     border-radius: 15px;
-    
 }
 .navs{
     display: flex;
@@ -142,12 +142,12 @@ aside{
 Footer Styles
 ---------------- */
 footer{
-    width: 1321px;
-    height: 200px;
+   
     background-color:#161616;
     border-radius: 20px;
-    padding: 30px 0px;
+    padding: 40px 0px;
     margin-top: 2em ;
+
 
 }
 .footer-title{
@@ -215,3 +215,147 @@ hr{
                 Responsive-Divices-Styles
         -------------------*/
         
+        /* Smaller-Devices */
+        @media screen and (max-width:576px) {
+            /* Header Styles */
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+            .heading-info{
+                text-align: center;
+            
+        }
+        header{
+            margin: 2% ;
+            background-color:#161616;
+            border-radius: 20px;
+        }
+        .heading-info{
+            margin-left: 2em;
+            margin-right: 2em;
+           
+        }
+        .banner img{
+               
+            margin-top: 33px;
+            margin-left: .5em;
+            margin-right: 3em;
+         
+        }
+        /* Header End */
+        /*------------------
+     navs and articles
+    ------------------------- */
+
+      .container{
+        display: flex;
+        flex-direction: column;
+      }
+      aside{
+       display: flex;
+       flex-direction: column;
+       background-color: white;
+       margin-left: 10em;
+    }
+    .nav-article{
+        display: block
+    }
+    .articles{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-row-gap: 30px;
+        justify-items: center;}
+    .blogs{
+        Width:312px;
+        Height:362px;
+        border: 1px solid lightblue;
+        border-radius: 15px;
+}
+  
+
+.footer-nav{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-row-gap: 1em;
+
+}
+  /* Styles for match site */
+  .upcoming-matches{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+
+}
+.matches{
+    margin-top: 1em;
+}
+        }
+/* Style_End */
+
+/*-----------------------
+        Medium_Devices_Responsive
+        ---------------------------------*/
+        
+        @media screen and (min-width:577px) and (max-width:992px) {
+            
+
+
+            .container{
+                display: flex;
+                height: 400px;
+                width: 577px;
+    
+                
+          }
+          .heading-title{
+            color: #FFFFFF;
+            font-size: 2em;
+            font-weight: 500;
+        }
+        .banner img{
+            width: 100%;
+            height: 365px;
+        margin-left: 5em;
+        }
+        .nav-article{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+        }
+        .navs{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+    
+        }
+        .articles{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 30px;
+            grid-column-gap:30px;
+        }
+
+        aside{
+
+        Width: auto;
+        Height: auto;
+        background-color: #FFFFFF;
+        margin-bottom: 2.2em;                  
+    }
+
+    /* Styles for match site */
+    .upcoming-matches{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 2em;
+        grid-column-gap: 2em ;
+       
+
+    }
+
+
+
+}
