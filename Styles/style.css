@@ -168,3 +168,38 @@ hr{
     color: #FFFFFF;
     margin-left: 2em;
 }
+/*------------------------------
+        Upcoming Matches
+        ----------------------------------*/
+        .upcoming-matches{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-row-gap: 1em;
+            grid-column-gap: 1.2em;
+            margin-left: 30px;
+        }
+        .matches{
+            width: 300px;
+            height: 210px;
+            border: .5px solid rgb(211, 180, 240);
+            border-radius: 10px;
+        }
+        .vs{
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+        .versus{
+            display: flex;
+            justify-content: center;
+           align-items: center;
+            margin-top: 2.5em;
+        }
+        .match-played{
+            text-align: center;
+            margin-bottom: 0%;
+            margin-top: 5px;
+        }
+        .time-detailes{
+            text-align: center;
+            margin-top: 7px;
+        }
