@@ -75,6 +75,7 @@ aside{
     Height: 250px;
     background-color:#161616;
     border-radius: 15px;
+    margin-left: 2em;
 }
 .navs{
     display: flex;
@@ -258,6 +259,13 @@ hr{
        background-color: white;
        margin-left: 10em;
     }
+    .nav-button{
+        width: 150px;
+        height: 15px;
+        background-color: #FFFFFF	;
+        color:#161616;
+       border: .5px solid grey;
+    }
     .nav-article{
         display: block
     }
@@ -344,6 +352,13 @@ grid-row-gap: 1em;
         Height: auto;
         background-color: #FFFFFF;
         margin-bottom: 2.2em;                  
+    }
+    .nav-button{
+        width: 150px;
+        height: 15px;
+        background-color: #FFFFFF	;
+        color:#161616;
+       border: .5px solid grey;
     }
 
     /* Styles for match site */
